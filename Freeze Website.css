@@ -1,0 +1,29 @@
+*{margin: 1px;}
+body{padding: 2%}
+.header{height: 10%; background: aliceblue}
+.body1{height: 45%}
+.body2{height: 29%; background: aliceblue; width: 100%;background-color: #eae7e8;margin: 0;	max-width: none;padding: 0;	width: 100%;}
+.footer{height: 15%; background: lightgreen; padding: 0.5%; text-align: center;}
+
+div.title{color: deeppink; font-weight: bolder; float: left; width: 50%; text-align: center; font-size: 25px; padding-top: 1%}
+span.title{color: green}
+
+.nav{float: left}
+.nav a{color: #333; text-decoration: none; display: inline-block; padding: 12px 20px}
+.nav a.active{color: deeppink}
+.nav a:hover{color: deeppink;}
+
+.body1 img{height: 100%; width: 100%;}
+
+.text_content{padding: 2%; width: 40%; height: 72%;}
+h1{color: deeppink}
+span.designer{text-decoration: underline}
+
+.body2 div { margin: 0 auto; max-width: 960px;overflow: hidden;	padding: 0;}
+div.body2 div div {float: left;	margin: 0;	padding: 0 0 0 40px;width: 560px;}
+div.body2 div img {display: block; float: right; left: 0; margin: 0; padding: 0; position: relative; width: auto; height: 100%}
+
+
+.footer div{width: 24%; display: inline-block; text-align: center; color: white;}
+.footer img{width: 24%;}
+img.story{width: 35%}
