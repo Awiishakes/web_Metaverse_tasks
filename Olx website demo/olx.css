@@ -1,0 +1,41 @@
+body{margin: 0;}
+.header{background: aliceblue; padding: 10px 5% 10px 5%}
+.header .title_header span{margin: auto 22px auto auto; font-family: sans-serif; font-size: 10px}
+.header .title_header span.title{font-size: 22px; font-weight: bolder; color: blue; font-family: arial black}
+.header .title_header span img{width: 20px; vertical-align: middle}
+.header .title_header span a{text-decoration: none; color: black}
+.header .title_header span a:hover{color: blue;}
+
+.header .search_header span.title{font-size: 42px; font-weight: bolder; font-family: arial black}
+.header .search_header span{margin: auto 22px auto auto }
+.header .search_header span input{border: 2px solid #333; border-radius: 4px; }
+.header .search_header span input.locaion_search{height: 42px; width: 255px; padding: 5px}
+.header .search_header span input.search_bar{height: 42px; width: 555px; padding: 5px}
+.header .search_header span a{color: #333; text-decoration: underline; font-weight: bold; font-size: 18px; font-family: arial}
+.header .search_header span a:hover{text-decoration: none}
+.header .search_header span button{width: 90px; height: 40px; border: 4px solid; border-radius: 22px; font-weight: bold; font-family: arial black; 
+                                   border-bottom-color: gold; border-top-color: aqua; border-right-color: dodgerblue; background: none;}
+
+.header_nav .nav{margin: 10px 5% 10px 5%}
+.header_nav .nav span.dropdown_nav{color: #333; margin: auto 22px auto 5px; font-family: sans-serif; font-size: 13px; font-weight: bold}
+.header_nav .nav span a{text-decoration: none; color: #333; margin: auto 22px auto 5px; font-family: sans-serif; font-size: 13px}
+.header_nav .nav span a:hover{color: darkcyan}
+
+.main_body {margin: 5%}
+.main_body .title{font-size: 22px; font-family: sans-serif; margin-bottom: 15px}
+.main_body .cards div{display: inline-block; margin: auto 5px 8px auto; font-family: sans-serif;}
+.main_body .cards div{width: 24%; border: 1px solid #ccc; border-radius: 4px}
+.main_body .cards div img{width: 100%; height:25%}
+.main_body .cards div h5{padding-left: 10px}
+.main_body .cards div p{line-height: 0.5px; padding-left: 10px}
+.main_body .cards div p.address{color: grey; font-size: 15px}
+.main_body .cards div p.post_time{color: grey; font-size: 12px}
+
+.footer{background: aliceblue; padding: 1%}
+.footer .site_description{margin-left: 7%;}
+.footer .site_description div{font-family: sans-serif; display: inline-block; margin: auto 6% auto auto}
+.footer .site_description div a{text-decoration: none; color: grey; font-size: 12px; line-height: 1.5em}
+.footer .site_description div a:hover{color: black}
+.footer .site_description div h5.follow{margin-bottom: 15px}
+.footer .site_description div a img{width: 22px; margin-right: 8px;}
+.footer .site_description div a img.store{width: 100px;}
